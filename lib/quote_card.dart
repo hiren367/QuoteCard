@@ -35,10 +35,14 @@ class QuoteCard extends StatelessWidget {
               ),
             ),
             SizedBox(height: 8.0),
-            FlatButton.icon(
-              onPressed: () {},
-              label: Text('delete quote'),
-              icon: Icon(Icons.),),
+            Align(
+              alignment: Alignment.centerRight,
+              child: FlatButton.icon(
+                onPressed: () {},
+                label: Text('Delete'),
+                icon: Icon(Icons.delete),
+              ),
+            ),
           ],
         ),
       )
